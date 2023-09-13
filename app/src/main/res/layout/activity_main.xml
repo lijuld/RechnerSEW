@@ -6,22 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="392dp"
-        android:layout_height="66dp"
-        android:background="#4CAF50"
-        android:gravity="center_vertical"
-        android:text="@string/app_name"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="58dp"
+        android:layout_height="46dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="345dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="100dp" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:constraint_referenced_ids="textView2" />
+        android:layout_height="wrap_content" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -29,5 +67,39 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="-28dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="345dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="218dp"
+        android:layout_height="46dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="58dp"
+        android:layout_height="46dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="196dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
